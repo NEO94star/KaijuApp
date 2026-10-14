@@ -5,11 +5,7 @@ plugins {
 
 android {
     namespace = "cl.duoc.kaiju"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "cl.duoc.kaiju"
